@@ -4,7 +4,8 @@
   "description": "A node application to demonstrate RESTful APIs while I am learning",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/Pranjay-daffodilsw/node-rest-shop#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
